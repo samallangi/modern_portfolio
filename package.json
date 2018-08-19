@@ -6,7 +6,6 @@
   "homepage": "https://samallangi.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "Samang",
